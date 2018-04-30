@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    tools:context="com.dainrussell.android.tswc.MainActivity"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="345dp"
+                android:layout_height="157dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:cropToPadding="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tswc" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text= "about us"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="serif"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="Impacting the Tri-State community by touching lives through the life-giving and life-changing power of Jesus Christ."
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text= "service times"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"/>
+
+
+
+
+
+            <TextView
+                android:id="@+id/Text5"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:text="Sunday School 9:30am"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/Text6"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:text="Sunday Church Services 10:30am"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/Text7"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:text="Sunday Evening 6:00pm "
+                android:textAlignment="center"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/Text8"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:text="Wednesday Evening 7:00pm"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                tools:ignore="HardcodedText,SmallSp" />
+
+
+            <TextView
+                android:id="@+id/Text3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:paddingTop="10dp"
+                android:text="1-740-523-0231"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                tools:ignore="SmallSp" />
+
+
+            <TextView
+                android:id="@+id/Text2"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:layout_weight="1"
+                android:autoLink="map"
+                android:clickable="true"
+                android:fontFamily="serif"
+
+                android:text="901 Solida Road South Point, OH 45680"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                tools:ignore="SmallSp" />
+
+
+            <TextView
+                android:id="@+id/weblink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+
+                android:text="@string/website"
+                android:textAlignment="center"
+                android:textSize="10sp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/TextViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:fontFamily="serif"
+                android:paddingBottom="10dp"
+                android:paddingTop="20dp"
+                android:text="sign up for newsletter here"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="SmallSp" />
+
+            <EditText
+                android:id="@+id/EditTextFirstNmae"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                android:hint="First Name" />
+
+            <EditText
+                android:id="@+id/EditTextLastNmae"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                android:hint="Last Name" />
+
+            <EditText
+                android:id="@+id/EditTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                android:hint="Email Address" />
+
+            <Button
+                android:id="@+id/newsletterButton"
+                android:layout_width="match_parent"
+                android:text="Subscribe"
+
+                android:textSize="12sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+</ScrollView>

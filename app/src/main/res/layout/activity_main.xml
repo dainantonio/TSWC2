@@ -35,7 +35,7 @@
                 android:textStyle="bold"
                 android:fontFamily="serif"
                 android:paddingBottom="10dp"
-                android:paddingTop="10dp"
+                android:paddingTop="15dp"
                 />
 
             <TextView
@@ -53,15 +53,15 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text= "service times"
-                android:textAllCaps="true"
-                android:textSize="12sp"
-                android:textStyle="bold"
+                android:layout_height="48dp"
                 android:fontFamily="serif"
                 android:paddingBottom="10dp"
-                android:paddingTop="10dp"/>
+                android:paddingTop="10dp"
+                android:text="service times"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="12sp"
+                android:textStyle="bold" />
 
 
 
@@ -148,71 +148,44 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="serif"
-
-                android:text="@string/website"
+                android:autoLink="web"
+                android:clickable="true"
+                android:text="www.tswc.org"
                 android:textAlignment="center"
                 android:textSize="10sp"
                 android:textStyle="normal" />
 
 
-            <TextView
-                android:id="@+id/TextViewTitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
-                android:fontFamily="serif"
-                android:paddingBottom="10dp"
-                android:paddingTop="20dp"
-                android:text="sign up for newsletter here"
-                android:textAlignment="center"
-                android:textAllCaps="true"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                tools:ignore="SmallSp" />
+
 
             <EditText
-                android:id="@+id/EditTextFirstNmae"
+                android:id="@+id/emailTo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
-                android:textSize="10dp"
-                android:textStyle="normal"
-                android:hint="First Name" />
+                android:hint="To" />
 
             <EditText
-                android:id="@+id/EditTextLastNmae"
+                android:id="@+id/emailSubject"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
-                android:textSize="10dp"
-                android:textStyle="normal"
-                android:hint="Last Name" />
+                android:hint="Subject" />
 
             <EditText
-                android:id="@+id/EditTextEmail"
+                android:id="@+id/emailBody"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp"
-                android:textSize="10sp"
-                android:textStyle="normal"
-                android:hint="Email Address" />
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Message"
+                android:layout_gravity="top"/>
 
             <Button
-                android:id="@+id/newsletterButton"
+                android:id="@+id/sendButton"
                 android:layout_width="match_parent"
-                android:text="Subscribe"
-
+                android:layout_gravity="end"
+                android:text="Send Feedback"
                 android:textSize="12sp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginRight="60dp" />
+                />
 
 
 
